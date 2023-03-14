@@ -1,0 +1,481 @@
+.first-div a {
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+
+}
+
+.smallscc {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.minicart {
+    vertical-align: top;
+    position: relative;
+    font-size: larger;
+
+    margin-left: -123px;
+}
+
+.minicart .minicart-quantity {
+    background-color: #00a1e0;
+    border-radius: 50%;
+    width: 1.25em;
+    height: 1.25em;
+    line-height: normal;
+    display: inline-block;
+    text-align: center;
+    font-size: .8125em;
+    position: relative;
+    top: -0.9375em;
+    left: -0.9375em;
+    color: #fff;
+}
+
+.form {
+    margin-top: 18px;
+}
+
+.form input {
+    width: 221%;
+    margin-bottom: 14px;
+    padding-left: 11px;
+}
+
+.search-div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.first-div svg {
+    width: 15%;
+}
+
+.search-stng {
+
+    margin-left: 51px;
+}
+
+.first-div {
+    justify-content: space-evenly;
+    padding: 7px;
+    align-items: center;
+}
+
+.bag-font {
+    font-size: 70px;
+}
+
+/* .background-image {
+    background-image: url(https://production-sitegenesis-dw.demandware.net/on/demandware.static/-/Library-Sites-RefArchSharedLibrary/default/dw0e4128ff/images/homepage/homepage-4/small.jpg);
+} */
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.menjacket {
+    height: 156%;
+    width: 100%;
+}
+
+.shopred {
+    width: 135%;
+    height: auto;
+}
+
+.womendress {
+    width: 436px;
+    height: 100%;
+}
+
+.womenjewww {
+    height: 100%;
+    width: 107%;
+}
+
+.styletolove {
+    color: blue;
+    padding-top: 50px;
+}
+
+.styletolove h1 {
+    font-size: 114px !important;
+    font-family: monospace;
+    text-align: start;
+    font-weight: lighter;
+}
+
+.styletolove h2 {
+    font-size: 107px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: lighter;
+
+}
+
+.styletolove small {
+    text-align: center;
+    font-family: monospace;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center
+}
+
+.circle {
+    width: 92px;
+    padding: 13px;
+}
+
+.linkcircle {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.circle-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.stars {
+    display: flex;
+
+
+}
+
+.stars i {
+    margin-left: 5px;
+}
+
+.emptydiv {
+    height: 55px;
+    width: 52px;
+    background-color: white;
+    border-radius: 100%;
+    margin-top: 22px;
+    border: 3px solid black;
+}
+
+.divempty2 {
+    height: 55px;
+    width: 52px;
+    background-color: black;
+    border-radius: 100%;
+    margin-top: 22px;
+    border: 3px solid black;
+}
+
+.a {
+    margin-left: 9px;
+
+}
+
+.b {
+    margin-left: 9px;
+    background-color: rgb(255, 218, 185);
+}
+
+.c {
+    margin-left: 9px;
+    background-color: #74cbbc;
+}
+
+.d {
+    background-color: #74cbbc;
+}
+
+.footer-nav {
+    background-color: black;
+    /* height: 400px; */
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.searchset {
+    width: 400px !important;
+
+}
+
+.lastfooter {
+    display: flex;
+
+}
+
+.nav-lines {
+    color: white;
+}
+
+.bg {
+    background-color: #e9ecef;
+    padding-left: 200px;
+    padding-top: 25px;
+}
+
+.decoration {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor {
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    width: 85% !important;
+    /* padding-top: 61px; */
+    margin-top: 13px !important;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo a {
+    margin-left: 10px;
+
+
+}
+
+.logo span {
+    margin-left: 10px;
+}
+
+.font h1 {
+    font-size: 17px;
+    font-family: inherit;
+
+}
+
+.nav-mag {
+    margin-left: 15%;
+}
+
+li:hover {
+    background-color: white;
+
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+    color: black;
+}
+
+.dropdown-item {
+    color: black;
+
+}
+
+.dropdown-menu li a {
+    color: aqua;
+    background-color: blue;
+}
+
+/* ////////////////DESKTOP////////////// */
+@media only screen and (max-width: 1500px) {
+    .minicart {
+
+        margin-left: 5px;
+    }
+}
+
+/* ////////////////MEDIUM/////////////////// */
+@media only screen and (max-width: 992px) {
+    .styletolove h1 {
+        font-size: 58px !important;
+    }
+
+    .lastfooter button {
+        margin-left: 7px;
+        height: 40px;
+    }
+
+
+    .styletolove h2 {
+        font-size: 92px;
+    }
+
+    .styletolove small {
+        padding-bottom: 42%;
+        margin-top: 5%;
+    }
+
+    .search-stng {
+        margin-left: 166px;
+    }
+
+    .minicart {
+
+        margin-left: 3px;
+    }
+}
+
+/* ///////////////SMALL///////////////////// */
+@media only screen and (max-width: 768px) {
+    .shopred {
+
+        width: 100%;
+        height: auto;
+        margin-top: 2px;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        padding-left: 15px;
+
+    }
+
+    .womenjewww {
+        width: 100%;
+    }
+
+    .womendress {
+        width: 100%;
+    }
+
+    .menjacket {
+        height: 100%;
+        width: 100%;
+    }
+
+    .styletolove h1 {
+        font-size: 140px !important;
+    }
+
+    .lastfooter {
+        width: 54%;
+    }
+
+    .styletolove h2 {
+        font-size: 140px;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-lines {
+        margin-top: 10px;
+    }
+
+    .bg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0%;
+    }
+
+    .anchor {
+        text-align: center;
+    }
+
+    .footer-nav button {
+        margin-left: 11px;
+    }
+
+    .store-locator {
+        text-align: center;
+    }
+
+    .copywrite {
+        text-align: center;
+    }
+
+    .form input {
+        width: 98%;
+        margin-right: -22px
+    }
+
+    .lastfooter button {
+        margin-left: 29px;
+        height: 40px;
+
+    }
+
+    .lastfooter button {
+        margin-left: 7px;
+        height: 39px;
+    }
+
+
+}
+
+/* /////////////////Xs///////////////////// */
+@media only screen and (max-width: 500px) {
+
+    /* .menjacket{
+        
+    } */
+    .divempty2 {
+        height: 46px;
+        width: 40px;
+    }
+
+    .smallscc {
+        margin-top: 15px;
+    }
+
+    .circle {
+        width: 76px;
+        padding: 14px;
+    }
+
+    .stars {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lovedivset h1 {
+        font-size: 59px;
+        font-family: monospace;
+        color: blue;
+
+    }
+
+    .lovedivset h2 {
+        font-size: 59px;
+        font-family: monospace;
+        color: blue;
+    }
+
+    .lovedivset small {
+        color: blue;
+    }
+
+    .emptydiv {
+        height: 47px;
+        width: 46px;
+    }
+
+    .form input {
+
+        margin-right: -3px;
+        margin-top: 12px;
+    }
+
+    .upperinput input {
+        margin-right: -22px;
+        margin-top: 1px;
+    }
+
+
+
+}
